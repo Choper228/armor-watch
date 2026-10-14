@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "armorwatch",
+  "version": "${version}",
+  "name": "Armor Watch",
+  "description": "Показывает прочность брони цели, на которую ты смотришь, в реальном времени.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.armorwatch.ArmorWatchClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
